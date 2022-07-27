@@ -1,0 +1,44 @@
+OOP merupakan salah satu metode pemograman yang berorientasi pada objek. Dalam bahasa indonesia OOP dikenal dengan PBO (Pemrograman Beriontasi objek).
+
+CLASS dan OBJECT
+Class baertugas untuk mengumpulkan prosedur/fungsi dan variabel dalam satu tempat. Class merupakan blueprint dari sebuah object atau cetakan untuk membuat onjek. Contih class sebagai berikut ini:
+
+public class Car{
+
+    //Body Class
+}
+
+CLASS akan merepentasikan objek yang mau dibuat. 
+jadi dalam membuat nama kelas harus di sesuaikan dengan objek yang akan di baut .
+penulisan nama class memiliki atuaran. yakni dengan format pasclcase. apa itu?  
+Penulisannya diawali dengan huruf kapital. jika nama variabel tersusun dari dua kata atau lebih 
+maka tidak perlu diberi spasi diantaranya dan diawali dengan huruf kapital pula.
+ 
+ Misal: class MakananKucing, class Sejata, dan class Signln.
+
+OBJECT adalah sebuah variabel instance yang merupkan wujud dari class.
+istance merupakan wujud dari sebuah kelas. sebuah objek digambarkan dengan variabel dan method.
+
+
+ATRIBUT merupakan bagian dari sebuah kelas yang masih berhubungan erat dari kelas tersebut.
+Atribut bisa juga disebut dengan properti atau properties dari sebuah class. Contih jika kamu punya sebuah class Motor,
+maka kamu dapat menambahakan atribut seperti kecepatan Motor, umur motor, ukuran, ban, warna, dsb. contohnya:
+
+class Car {
+    //Atribute
+    int speed;
+    int tire;
+
+}
+
+Penggunaan atribut berlaku dari kurung kurawal awal ({) sampai dengan kurung kurawal akhir (}). 
+ini di namankan scope. unutk penulisanya mengguankan format LowerCameCase. jadi untuk kata pertama di awali dengan huruf kapital. 
+sama seperti pasclcase, penggunaan spasi tidak di perkanankan ketika menghubungakan 2 kata atau lebih dari sebuah nama properti,
+
+Misal : length, width, apple, speed, lisMovies, dll.
+
+
+METHOD berperan menjelaskan bagaimana suatu stribut beraksi. peran yang simaksud
+berupa tingkah laku (behavior) yang dapat di gambarkan oleh suatu method. misal class manusia. 
+manusia tentu memiliki method berupa tingkah laku, seperti berpikir, berjalan, berbicara. makan dll.
+maka method bisa disesuaikan dengan program yang dibaut.
